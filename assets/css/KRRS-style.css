@@ -38,7 +38,7 @@ p {
 }
 
 h4 {
-    font-size: 26px;
+    font-size: 24px;
     font-weight: 700;
     color: rgb(170, 90, 90);
     letter-spacing: 0.25px;
@@ -51,8 +51,15 @@ h2 {
     letter-spacing: 0.30px;
 }
 
+.circular--square {
+    border-top-left-radius: 50% 50%; 
+    border-top-right-radius: 50% 50%; 
+    border-bottom-right-radius: 50% 50%; 
+    border-bottom-left-radius: 50% 50%; 
+}
+
 img {
-    width: 100%;
+    width: 80%;
     overflow: hidden;
 }
 
@@ -360,33 +367,6 @@ button:hover {
 }
 
 
-/* Left & Right Post */
-
-.right-image-post {
-    margin-top: 60px;
-    padding-top: 60px;
-    border-top: 2px solid rgba(250, 250, 250, 0.1);
-}
-
-.left-image img,
-.right-image img {
-    border-radius: 5px;
-}
-
-.right-image-post h4,
-.left-image-post h4 {
-    margin-top: 30px;
-}
-
-.right-image-post p,
-.left-image-post p {
-    margin-top: 20px;
-}
-
-.right-image-post .white-button,
-.left-image-post .white-button {
-    margin-top: 30px;
-}
 
 
 /* Services */
