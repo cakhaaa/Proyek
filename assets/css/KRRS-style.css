@@ -366,6 +366,11 @@ button:hover {
     color: #fff;
 }
 
+.dropdown {
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+}
 
 
 
