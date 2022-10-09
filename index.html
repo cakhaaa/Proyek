@@ -118,107 +118,141 @@
       </section>
 
   <section class="section Registrasi-KRRS" data-section="section2">
-    <div class="container mt-3">
-      <div class="row">
-        <div class="col text-center">
-          <div class="dropdown">
-            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
-            Pilih MataKuliah
-            </button>
-            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-            <li><a class="dropdown-item" href="#">TK23015 Web Programming, SKS 8</a></li>
-            <li><a class="dropdown-item" href="#">TK23016 Computer system, SKS 6</a></li>
-            <li><a class="dropdown-item" href="#">TK23017 Introduction To Operating System, SKS 4</a></li>
-            <li><a class="dropdown-item" href="#">TK23018 Distributed System, SKS 4</a></li>
-            </ul>
+    <div class="container">
+      <div class="container mt-3">
+        <div class="row">
+          <div class="col text-center">
+            <div class="dropdown">
+              <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+              Pilih MataKuliah
+              </button>
+              <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+              <li><a class="dropdown-item" href="#">TK23015 Web Programming, SKS 8</a></li>
+              <li><a class="dropdown-item" href="#">TK23016 Computer system, SKS 6</a></li>
+              <li><a class="dropdown-item" href="#">TK23017 Introduction To Operating System, SKS 4</a></li>
+              <li><a class="dropdown-item" href="#">TK23018 Distributed System, SKS 4</a></li>
+              </ul>
+            </div>
           </div>
         </div>
       </div>
-    </div>
 
-    <div class="container mt-3">
-      <div class="row">
-        <div class="col text-center">
-          <div class="dropdown">
-            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
-            Pilih Kelas
-            </button>
-            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-              <li><a class="dropdown-item" href="#">TK23015 Web Programming, A, Senin 07.30-11.10, Selasa 07.30-11.10</a></li>
-              <li><a class="dropdown-item" href="#">TK23015 Web Programming, B, Senin 13.30-17.10, Selasa 13.30-17.10</a></li>
-              <li><a class="dropdown-item" href="#">TK23016 Computer System, A, Kamis 07.30-11.10</a></li>
-              <li><a class="dropdown-item" href="#">TK23016 Computer System, B, Rabu 13.30-17.10</a></li>
-              <li><a class="dropdown-item" href="#">TK23017 Introduction to Operating System, A, Rabu 07.30-11.10</a></li>
-              <li><a class="dropdown-item" href="#">TK23017 Introduction to Operating System, B, Jumat 13.30-17.10</a></li>
-              <li><a class="dropdown-item" href="#">TK23018 Distributed System, A, Selasa 07.30-11.10</a></li>
-              <li><a class="dropdown-item" href="#">TK23018 Distributed System, B, Kamis 13.30-17.10</a></li>
-            </ul>
+      <div class="container mt-3">
+        <div class="row">
+          <div class="col text-center">
+            <div class="dropdown">
+              <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+              Pilih Kelas
+              </button>
+              <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                <li><a class="dropdown-item" href="#">TK23015 Web Programming, A, Senin 07.30-11.10, Selasa 07.30-11.10</a></li>
+                <li><a class="dropdown-item" href="#">TK23015 Web Programming, B, Senin 13.30-17.10, Selasa 13.30-17.10</a></li>
+                <li><a class="dropdown-item" href="#">TK23016 Computer System, A, Kamis 07.30-11.10</a></li>
+                <li><a class="dropdown-item" href="#">TK23016 Computer System, B, Rabu 13.30-17.10</a></li>
+                <li><a class="dropdown-item" href="#">TK23017 Introduction to Operating System, A, Rabu 07.30-11.10</a></li>
+                <li><a class="dropdown-item" href="#">TK23017 Introduction to Operating System, B, Jumat 13.30-17.10</a></li>
+                <li><a class="dropdown-item" href="#">TK23018 Distributed System, A, Selasa 07.30-11.10</a></li>
+                <li><a class="dropdown-item" href="#">TK23018 Distributed System, B, Kamis 13.30-17.10</a></li>
+              </ul>
+            </div>
           </div>
         </div>
       </div>
+
+      <table class="table table-light mt-3">
+        <thead>
+          <tr>
+            <th scope="col">No</th>
+            <th scope="col">Kode</th>
+            <th scope="col">Mata Kuliah</th>
+            <th scope="col">Kelas</th>
+            <th scope="col">Ruang</th>
+            <th scope="col">Waktu Kuliah</th>
+            <th scope="col">Action</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">1</th>
+            <td>TK23015</td>
+            <td>Web Programming</td>
+            <td>B</td>
+            <td>Lab.Pemrog.6</td>
+            <td>Senin 13.30-17.10<br> Selasa 13.30-17.10</td>
+            <td>
+              <div class="dropdown">
+                <button class="btn btn-secondary btn-sm dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                Action
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                  <li><a class="dropdown-item" href="#">Edit</a></li>
+                  <li><a class="dropdown-item" href="#">Delete</a></li>
+                </ul>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <th scope="row">2</th>
+            <td>TK23016</td>
+            <td>Computer System</td>
+            <td>B</td>
+            <td>R805</td>
+            <td>Rabu 13.30-17.10</td>
+            <td>
+              <div class="dropdown">
+                <button class="btn btn-secondary btn-sm dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                Action
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                  <li><a class="dropdown-item" href="#">Edit</a></li>
+                  <li><a class="dropdown-item" href="#">Delete</a></li>
+                </ul>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <th scope="row">3</th>
+            <td>TK23017</td>
+            <td>Introduction to Operating System</td>
+            <td>B</td>
+            <td>R801</td>
+            <td>Jumat 13.30-17.10</td>
+            <td>
+              <div class="dropdown">
+                <button class="btn btn-secondary btn-sm dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                Action
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                  <li><a class="dropdown-item" href="#">Edit</a></li>
+                  <li><a class="dropdown-item" href="#">Delete</a></li>
+                </ul>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <th scope="row">4</th>
+            <td>TK23018</td>
+            <td>Distributed System</td>
+            <td>B</td>
+            <td>R805</td>
+            <td>Kamis 13.30-17.10</td>
+            <td>
+              <div class="dropdown">
+                <button class="btn btn-secondary btn-sm dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                Action
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                  <li><a class="dropdown-item" href="#">Edit</a></li>
+                  <li><a class="dropdown-item" href="#">Delete</a></li>
+                </ul>
+              </div>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+
+      <button type="button" class="btn btn-success">Cetak KRRS</button>
     </div>
-
-    <table class="table table-bordered text-white mt-3">
-      <thead>
-        <tr>
-          <th scope="col">No</th>
-          <th scope="col">Kode</th>
-          <th scope="col">Mata Kuliah</th>
-          <th scope="col">Kelas</th>
-          <th scope="col">Ruang</th>
-          <th scope="col">Waktu Kuliah</th>
-          <th scope="col">Action</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <th scope="row">1</th>
-          <td>TK23015</td>
-          <td>Web Programming</td>
-          <td>B</td>
-          <td>Lab.Pemrog.6</td>
-          <td>Senin 13.30-17.10<br> Selasa 13.30-17.10</td>
-          <td><button type="button" class="btn btn-outline-primary btn-sm">Edit</button>
-              <button type="button" class="btn btn-outline-danger btn-sm">Hapus</button>
-          </td>
-        </tr>
-        <tr>
-          <th scope="row">2</th>
-          <td>TK23016</td>
-          <td>Computer System</td>
-          <td>B</td>
-          <td>R805</td>
-          <td>Rabu 13.30-17.10</td>
-          <td><button type="button" class="btn btn-outline-primary btn-sm">Edit</button>
-            <button type="button" class="btn btn-outline-danger btn-sm">Hapus</button>
-        </td>
-        </tr>
-        <tr>
-          <th scope="row">3</th>
-          <td>TK23017</td>
-          <td>Introduction to Operating System</td>
-          <td>B</td>
-          <td>R801</td>
-          <td>Jumat 13.30-17.10</td>
-          <td><button type="button" class="btn btn-outline-primary btn-sm">Edit</button>
-            <button type="button" class="btn btn-outline-danger btn-sm">Hapus</button>
-        </td>
-        </tr>
-        <tr>
-          <th scope="row">4</th>
-          <td>TK23018</td>
-          <td>Distributed System</td>
-          <td>B</td>
-          <td>R805</td>
-          <td>Kamis 13.30-17.10</td>
-          <td><button type="button" class="btn btn-outline-primary btn-sm">Edit</button>
-            <button type="button" class="btn btn-outline-danger btn-sm">Hapus</button>
-        </td>
-        </tr>
-      </tbody>
-    </table>
-
-    <button type="button" class="btn btn-success">Cetak KRRS</button>
   </section>
 
   <section class="section Panduan-KRRS" data-section="section3">
