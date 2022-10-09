@@ -8,13 +8,15 @@
 }
 
 .logo-login {
-  position: absolute; top: 120px; left: 850px;
-  margin: 0 auto 100px;
-  max-width: auto;
+  position: absolute; top: 120px;
+  z-index: 1;
   
+  max-width: 360px;
+  margin: 0 center 100px;
+  padding: 45px;
 }
 .form {
-  position: absolute; top: 480px; left: 39%;
+  position: absolute; top: 480px; 
   z-index: 1;
   background: #FFFFFF;
   max-width: 360px;
