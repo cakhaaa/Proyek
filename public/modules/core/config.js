@@ -9,5 +9,5 @@ if (envFound.error) {
 
 module.exports = {
   port: process.env.PORT || 5000,
-  jwtSecretKey: process.env.JWT_SECRET_KEY || '',
+  jwtSecretKey: process.env.JWT_SECRET_KEY || 'Okay',
 };

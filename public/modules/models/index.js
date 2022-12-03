@@ -5,7 +5,7 @@ const Users = require('./user');
 const config = require('../core/config')
 
 mongoose.connect(
-  'mongodb+srv://fahmis4d:LC8fOM3bpW3w01mD@cluster0.ymutlad.mongodb.net/?retryWrites=true&w=majority',
+  'mongodb+srv://yuno:GwwQHs3YHYRNuN6C@cluster0.rszuqh5.mongodb.net/test',
 );
 
 const db = mongoose.connection;

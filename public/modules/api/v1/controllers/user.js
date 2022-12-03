@@ -22,10 +22,11 @@ async function findByEmail(email) {
 
 async function login(email, password) {
   const user = await findByEmail(email);
+ 
   if (!user) {
     return null;
   }
-
+  console.log(user, email, password)
   // compare password
   const passwordMatched = await comparePassword(
     password,
