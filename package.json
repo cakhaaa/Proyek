@@ -1,12 +1,4 @@
 {
-  "name": "krrs",
-  "description": "",
-  "version": "1.0.0",
-  "main": "index.js",
-  
-  "scripts": {
-    "start": "index.js"
-  },
   "dependencies": {
     "bcrypt": "^5.1.0",
     "body-parser": "^1.20.1",
@@ -27,6 +19,15 @@
     "passport-jwt": "^4.0.0",
     "sequelize": "^6.25.7",
     "uuid": "^9.0.0"
-     }
-}     
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "name": "krrs",
+  "description": "",
+  "version": "1.0.0",
+ 
+  "license": "ISC"
+ 
   
+}
